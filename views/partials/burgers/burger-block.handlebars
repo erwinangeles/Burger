@@ -2,14 +2,14 @@
     <li style="margin-bottom: 3px;">
         {{burger_name}}
         <button class="change-devoured btn btn-primary" data-id="{{id}}" data-newdevoured="{{devoured}}">
-            Devour!
+            Devour! <i class="fa fa-cutlery" aria-hidden="true"></i>
         </button>
     </li>
 {{else}}
     <li style="margin-bottom: 3px; ">
         {{burger_name}}
         <button class="change-devoured btn btn-primary" data-id="{{id}}" data-newdevoured="{{devoured}}" disabled>
-            Devoured.
+            Devoured. <i class="fa fa-smile-o" aria-hidden="true"></i>
         </button>
     </li>
 {{/if}}
